@@ -1,0 +1,54 @@
+.dis-main {
+  display: flex;
+  justify-content: space-around;
+  gap: 3rem;
+  padding: 3rem 6rem;
+  background: rgba(109, 46, 192, 1);
+  background: -moz-linear-gradient(
+    45deg,
+    rgba(109, 46, 192, 1) 0%,
+    rgba(0, 147, 226, 1) 100%
+  );
+  background: -webkit-gradient(
+    left bottom,
+    right top,
+    color-stop(0%, rgba(109, 46, 192, 1)),
+    color-stop(100%, rgba(0, 147, 226, 1))
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    rgba(109, 46, 192, 1) 0%,
+    rgba(0, 147, 226, 1) 100%
+  );
+  background: -o-linear-gradient(
+    45deg,
+    rgba(109, 46, 192, 1) 0%,
+    rgba(0, 147, 226, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    45deg,
+    rgba(109, 46, 192, 1) 0%,
+    rgba(0, 147, 226, 1) 100%
+  );
+  background: linear-gradient(
+    45deg,
+    rgba(109, 46, 192, 1) 0%,
+    rgba(0, 147, 226, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d2ec0', endColorstr='#0093e2', GradientType=1 );
+}
+.dis-title {
+  font-size: 3rem;
+  font-weight: 200;
+  color: #fff;
+}
+
+.dis-btn {
+  margin: 2rem 2rem;
+  padding: 1rem 1.5rem;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 50px;
+  width: 20%;
+}

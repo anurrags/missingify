@@ -1,0 +1,75 @@
+.add-main {
+  background-color: aliceblue;
+  padding: 5rem 1rem 2rem 1rem;
+}
+.add-title-div {
+  margin-bottom: 2rem;
+}
+.add-title {
+  font-size: 3rem;
+}
+.ads-title-border {
+  border-bottom: 3px solid;
+  width: 40px;
+  padding-top: 15px;
+  margin: auto;
+  border-color: rgba(109, 46, 192, 1);
+  border-color: -moz-linear-gradient(
+    left,
+    rgba(109, 46, 192, 1) 0%,
+    rgba(0, 147, 226, 1) 100%
+  );
+  border-color: -webkit-gradient(
+    left top,
+    right top,
+    color-stop(0%, rgba(109, 46, 192, 1)),
+    color-stop(100%, rgba(0, 147, 226, 1))
+  );
+  border-color: -webkit-linear-gradient(
+    left,
+    rgba(109, 46, 192, 1) 0%,
+    rgba(0, 147, 226, 1) 100%
+  );
+  border-color: -o-linear-gradient(
+    left,
+    rgba(109, 46, 192, 1) 0%,
+    rgba(0, 147, 226, 1) 100%
+  );
+  border-color: -ms-linear-gradient(
+    left,
+    rgba(109, 46, 192, 1) 0%,
+    rgba(0, 147, 226, 1) 100%
+  );
+  border-color: linear-gradient(
+    to right,
+    rgba(109, 46, 192, 1) 0%,
+    rgba(0, 147, 226, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d2ec0', endColorstr='#0093e2', GradientType=1 );
+}
+.add-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.add-content-first:hover,
+.add-content-sec:hover,
+.add-content-third:hover {
+  cursor: pointer;
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12),
+    0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12),
+    0 16px 16px rgba(0, 0, 0, 0.12);
+}
+.add-content-first,
+.add-content-sec,
+.add-content-third {
+  padding: 5rem 4rem;
+}
+.add-content-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.add-content-para {
+  color: #777;
+  line-height: 1.5rem;
+}

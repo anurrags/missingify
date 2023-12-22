@@ -1,0 +1,51 @@
+.ads-main {
+  margin: 3rem 0;
+}
+.ads-div {
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+}
+.ads-title {
+  font-size: 3rem;
+}
+.ads-title-border {
+  border-bottom: 3px solid;
+  width: 40px;
+  padding-top: 15px;
+  margin: auto;
+  border-color: rgba(109, 46, 192, 1);
+  border-color: -moz-linear-gradient(
+    left,
+    rgba(109, 46, 192, 1) 0%,
+    rgba(0, 147, 226, 1) 100%
+  );
+  border-color: -webkit-gradient(
+    left top,
+    right top,
+    color-stop(0%, rgba(109, 46, 192, 1)),
+    color-stop(100%, rgba(0, 147, 226, 1))
+  );
+  border-color: -webkit-linear-gradient(
+    left,
+    rgba(109, 46, 192, 1) 0%,
+    rgba(0, 147, 226, 1) 100%
+  );
+  border-color: -o-linear-gradient(
+    left,
+    rgba(109, 46, 192, 1) 0%,
+    rgba(0, 147, 226, 1) 100%
+  );
+  border-color: -ms-linear-gradient(
+    left,
+    rgba(109, 46, 192, 1) 0%,
+    rgba(0, 147, 226, 1) 100%
+  );
+  border-color: linear-gradient(
+    to right,
+    rgba(109, 46, 192, 1) 0%,
+    rgba(0, 147, 226, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d2ec0', endColorstr='#0093e2', GradientType=1 );
+}

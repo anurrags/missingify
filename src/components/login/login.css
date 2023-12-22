@@ -1,0 +1,120 @@
+.login_container {
+  color: #fff;
+  width: 100%;
+  min-height: 100vh;
+  background: #757f9a;
+  background: -webkit-linear-gradient(to right, #d7dde8, #757f9a);
+  background: linear-gradient(to right, #d7dde8, #757f9a);
+  display: flex;
+  justify-content: center;
+}
+
+.login_form_container {
+  margin-top: 2rem;
+  border-radius: 10px;
+}
+
+.login_form_container .left {
+  padding: 3rem 5rem;
+  background-color: #0f3460;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%),
+    0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+}
+
+.form_container {
+  display: flex;
+  row-gap: 1rem;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 2rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form_container h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+.input {
+  outline: none;
+  border: none;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #edf5f3;
+
+  font-size: 1rem;
+}
+
+.error_msg {
+  width: 370px;
+  padding: 15px;
+  margin: 5px 0;
+  font-size: 14px;
+  background-color: #f34646;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+}
+.signup-div {
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+.left .signup,
+.left .signin {
+  border: none;
+  outline: none;
+  padding: 0.6rem 0;
+  background-color: white;
+  border-radius: 1.3rem;
+  padding: 1rem 3rem;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.left .signin {
+  background-color: #aa008b;
+  color: white;
+}
+
+@media (max-width: 480px) {
+  .login_form_container .left {
+    padding: 1rem 2rem;
+  }
+  .form_container {
+    row-gap: 0.5rem;
+    padding-bottom: 1rem;
+  }
+  .input {
+    padding: 0.7rem;
+    font-size: 0.6rem;
+  }
+  .form_container h1 {
+    font-size: 2rem;
+  }
+  .left .signup,
+  .left .signin {
+    padding: 0.5rem 0.8rem;
+    border-radius: 0.4rem;
+    font-size: 0.8rem;
+  }
+  .signup-div h1 {
+    font-size: 1.5rem;
+  }
+  .error_msg {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0;
+    font-size: 14px;
+    background-color: #f34646;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+  }
+}
