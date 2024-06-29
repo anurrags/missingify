@@ -20,8 +20,10 @@ const Footer = () => {
         <div className="footer-sec">
           <h1>Contact</h1>
           <ul className="footer-list">
-            <li>Himanshu Yadav</li>
-            <li><a href="tel:+919755136077">+91 97551-36077</a></li>
+            <li>Harsh Tiwari</li>
+            <li>
+              <a href="tel:+916376693577">+91 63766 93577</a>
+            </li>
           </ul>
         </div>
         <div className="footer-third">
